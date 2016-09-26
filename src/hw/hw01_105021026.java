@@ -15,9 +15,14 @@ public class hw01_105021026 {
 		int f =e/50;
 		int g =(e-f*50)/5;
 		int h =e-f*50-g*5;
+		if(a<b*15+c*20+d*30){
+			System.out.print("0");
+		}
+		else{
 		System.out.println("50元找"+ f +"個");
 		System.out.println("5元找"+ g +"個");
 		System.out.println("1元找"+ h +"個");
-	}
+		
+	}}
 
 }
